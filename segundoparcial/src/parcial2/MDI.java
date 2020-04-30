@@ -14,6 +14,12 @@ public class MDI extends javax.swing.JFrame {
     private unoo uno;
     private dos dos;
     private tres tres;
+    private cautro cautro;
+    private cinco cinco;
+    
+    
+    
+    
     
 
     /**
@@ -77,9 +83,19 @@ public class MDI extends javax.swing.JFrame {
         jMenu1.add(jMenuItem2);
 
         jMenuItem5.setText("sedes");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem5);
 
         jMenuItem4.setText("carreras");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem4);
 
         jMenuItem6.setText("secciones");
@@ -152,6 +168,18 @@ public class MDI extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        // TODO add your handling code here:
+        cautro = new cautro ();   
+     jDesktopPane1.add(cautro) ;
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        // TODO add your handling code here:
+        cinco = new cinco();   
+     jDesktopPane1.add(cinco) ;
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+             
     /**
      * @param args the command line arguments
      */
