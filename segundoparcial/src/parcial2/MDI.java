@@ -27,12 +27,34 @@ public class MDI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenuBar2 = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuBar3 = new javax.swing.JMenuBar();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu6 = new javax.swing.JMenu();
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
+        jMenu9 = new javax.swing.JMenu();
+        jMenuItem6 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenu8 = new javax.swing.JMenu();
+        jMenuItem4 = new javax.swing.JMenuItem();
+
+        jMenu3.setText("File");
+        jMenuBar2.add(jMenu3);
+
+        jMenu4.setText("Edit");
+        jMenuBar2.add(jMenu4);
+
+        jMenu5.setText("File");
+        jMenuBar3.add(jMenu5);
+
+        jMenu6.setText("Edit");
+        jMenuBar3.add(jMenu6);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,7 +70,7 @@ public class MDI extends javax.swing.JFrame {
         );
 
         jMenu1.setForeground(new java.awt.Color(0, 0, 153));
-        jMenu1.setText("Catalogos ");
+        jMenu1.setText("Abrir");
         jMenu1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
 
         jMenuItem2.setText("jMenuItem2");
@@ -56,19 +78,37 @@ public class MDI extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
+        jMenu9.setForeground(new java.awt.Color(0, 0, 153));
+        jMenu9.setText("Catalogos ");
+        jMenu9.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+
+        jMenuItem6.setText("jMenuItem2");
+        jMenu9.add(jMenuItem6);
+
+        jMenuBar1.add(jMenu9);
+
         jMenu2.setForeground(new java.awt.Color(255, 0, 0));
-        jMenu2.setText("Salir");
+        jMenu2.setText("Procesos");
         jMenu2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
 
-        jMenuItem1.setText("Salir del Sistema");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
-            }
-        });
-        jMenu2.add(jMenuItem1);
+        jMenuItem3.setText("jMenuItem3");
+        jMenu2.add(jMenuItem3);
 
         jMenuBar1.add(jMenu2);
+
+        jMenu8.setForeground(new java.awt.Color(255, 0, 0));
+        jMenu8.setText("Salir");
+        jMenu8.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+
+        jMenuItem4.setText("Salir del Sistema");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem4);
+
+        jMenuBar1.add(jMenu8);
 
         setJMenuBar(jMenuBar1);
 
@@ -90,11 +130,9 @@ public class MDI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
-        dispose ();
-        
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -135,8 +173,18 @@ public class MDI extends javax.swing.JFrame {
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenuBar jMenuBar3;
     private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem6;
     // End of variables declaration//GEN-END:variables
 }
